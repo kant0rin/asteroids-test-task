@@ -1,0 +1,69 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    color: white;
+  }
+}
+
+.row{
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.distance {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.distanceRuler{
+  width: 95%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+  position: relative;
+  z-index: 2;
+}
+
+.triangleRight{
+  width: 0;
+  height: 0;
+  position: absolute; right: -3px; top: -3px;
+  z-index: 10;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+.triangleLeft {
+  width: 0;
+  height: 0;
+  position: absolute; left: -3px; top: -3px;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 4px solid rgba(255, 255, 255, 0.5);
+}
+
+.nameNDiameter{
+  display: flex;
+  flex-direction: column;
+}
+
+.diameter {
+  display: flex;
+}
+
+.makeOrder {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.dangerous {
+  gap: 2px;
+  display: flex;
+}
+

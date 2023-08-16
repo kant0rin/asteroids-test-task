@@ -1,0 +1,21 @@
+.img {
+  top: 115px;
+  left: 0;
+  position: fixed;
+}
+
+@media screen and (max-width: 1200px) {
+  .img {
+   width: 372px;
+    height: 400px;
+    left: -60px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .img {
+    left: -250px;
+  }
+}
+

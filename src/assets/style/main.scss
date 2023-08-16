@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica/helvetica_regular.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica/helvetica_bold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+html, body {
+  font-size: 16px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: 700;
+  line-height: 18px;
+  background: #000000;
+  color: white;
+}
+
+.main__container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.container {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.content__container {
+  margin-left: auto;
+  margin-right: auto; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit; }
+
+input, button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input:focus, button:focus {
+  outline: none; }
+
+ul, li {
+  list-style: none; }

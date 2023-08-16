@@ -1,0 +1,33 @@
+.button {
+  cursor: pointer;
+  transition: .3s;
+  border: none;
+}
+
+.small{
+  padding: 2px 11px;
+  background: rgba(248, 102, 0, 0.15);
+  color: rgba(248, 102, 0, 1);
+  border-radius: 16px;
+
+  &:hover {
+    background: rgba(248, 102, 0, 1);
+    color: white;
+  }
+}
+
+.big {
+  padding: 12px 16px;
+  border-radius: 40px;
+  background: rgba(248, 102, 0, 1);
+  color: white;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.inOrder{
+  background: rgba(248, 102, 0, 0.15);
+  color: white;
+}

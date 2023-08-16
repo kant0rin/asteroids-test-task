@@ -1,0 +1,29 @@
+.asteroidWrapper {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  width: 100%;}
+
+.list {
+  flex-direction: column;
+  max-width: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 150px;
+}
+
+@media screen and (max-width: 900px) {
+  .list {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+    max-width: 300px;
+    margin-left: 70px;
+  }
+}
