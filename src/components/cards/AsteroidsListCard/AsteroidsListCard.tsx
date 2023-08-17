@@ -43,11 +43,9 @@ const AsteroidsListCard: React.FC<CardProps> = ({date, isInLunar, kilometreDista
 
   return (
     <div className={cl.wrapper}>
-      <Link href={`../asteroid/${id}`}>
         <Typography variant='h-2' tag='h2'>
           <span data-testid={ASTEROIDS_LIST_CARD_TEST_IDS.DATE}>{date}</span>
         </Typography>
-      </Link>
       <div className={cl.row}>
         <div className={cl.distance}>
           {
@@ -72,7 +70,9 @@ const AsteroidsListCard: React.FC<CardProps> = ({date, isInLunar, kilometreDista
         }
         <div className={cl.nameNDiameter}>
           <Typography variant='title-bold-underlined' tag='span'>
-            <span data-testid={ASTEROIDS_LIST_CARD_TEST_IDS.NAME}>{name}</span>
+            <Link href={`../asteroid/${id}`}>
+              <span data-testid={ASTEROIDS_LIST_CARD_TEST_IDS.NAME}>{name}</span>
+            </Link>
           </Typography>
           <Typography variant='title-micro' tag='span'>
             <span style={{display: 'flex', gap: '4px'}}>
