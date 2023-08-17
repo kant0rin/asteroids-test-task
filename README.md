@@ -1,6 +1,6 @@
-# **asteroid-test-task**
+# **asteroids-test-task**
 
-## Ссылка на хостинг - <a href='https://asteroids-test-task-jwh5.vercel.app/'>asteroid-test-task</a>
+## Ссылка на хостинг - <a href='https://asteroids-test-task-jwh5.vercel.app/'>asteroids-test-task</a>
 
 ## Описание приложения
 
@@ -47,5 +47,3 @@ npm run test
 ```bash
 npm run storybook
 ```
-
-
